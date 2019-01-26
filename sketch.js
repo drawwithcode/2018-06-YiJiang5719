@@ -42,9 +42,9 @@ function mousePressed(){
 function draw() {
   // put drawing code here
 
-  image(myImage, 0, 0, myImage.width, myImage.height);
+  image(myImage, 0, 0, windowWidth.width, windowHeight.height);
   myImage.filter("gray");
-  
+
   var myText = 'This is the current distribution of data centers in various cities!';
 
   textFont('Josefin Sans');
